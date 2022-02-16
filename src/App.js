@@ -2,7 +2,8 @@ import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import AddButtonModal from "./components/AddButtonModal";
+import Button from "./components/Button";
+import "./App.css";
 const App = () => {
   const [button, setButton] = useState([]);
 
@@ -28,6 +29,13 @@ const App = () => {
         >
           Add Button
         </a>
+        <br />
+        <br />
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+        <Button />
       </div>
     </>
   );
