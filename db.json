@@ -1,0 +1,19 @@
+{
+    "buttons": [
+        {
+            "id": 1,
+            "name": "That was easy",
+            "audio_file": "Audio file placed here"
+        },
+        {
+            "id": 2,
+            "name": "What the dog doin",
+            "audio_file": "Audio file placed here"
+        },
+        {
+            "id": 3,
+            "name": "SUGARRR",
+            "audio_file": "Audio file placed here"
+        }
+    ]
+}
