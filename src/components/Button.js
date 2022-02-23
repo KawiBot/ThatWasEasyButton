@@ -1,6 +1,8 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
-const Button = () => {
+import FileDrop from "./FileDrop";
+// Each individual button
+const Button = (props) => {
   return (
     <div className="row">
       <div className="col s12">
@@ -13,6 +15,7 @@ const Button = () => {
             />
           </div>
           <span className="button-title">Card Title</span>
+          {/* <FileDrop /> */}
           <div className="audio">
             {/* Audio controller area */}
             <ReactAudioPlayer

@@ -2,7 +2,7 @@ import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Button from "./components/Button";
+import Buttons from "./components/Buttons";
 import "./App.css";
 const App = () => {
   const [button, setButton] = useState([]);
@@ -31,22 +31,10 @@ const App = () => {
         </a>
         <br />
         <br />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
+        <Buttons />
       </div>
     </>
   );
-};
-const fullVH = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  textAlign: "center",
-  margin: "auto",
-  height: "100vh",
 };
 
 export default App;
